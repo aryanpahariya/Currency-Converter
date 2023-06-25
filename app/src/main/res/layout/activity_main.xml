@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#09078a" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp"
+        android:elevation="20dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:lineSpacingExtra="5dp"
+        android:text="@string/head_text"
+        android:textColor="@color/white"
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="153dp"
+        android:layout_height="102dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="160dp"
+        android:background="@drawable/circle"
+        android:elevation="10dp"
+        android:fontFamily="@font/montserrat_semibold"
+        android:paddingLeft="50dp"
+        android:paddingTop="29dp"
+        android:text="USD"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="42dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="185dp"
+        android:layout_marginTop="190dp"
+        app:srcCompat="@drawable/repeat" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="359dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="420dp"
+        android:background="@drawable/btn_convert"
+        android:fontFamily="@font/montserrat_medium"
+        android:text="convert"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="357dp"
+        android:layout_height="158dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/answer"
+        android:fontFamily="@font/montserrat_medium"
+        android:paddingLeft="127dp"
+        android:paddingTop="60sp"
+        android:textColor="@color/white"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/text1"
+        android:layout_width="362dp"
+        android:layout_height="92dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/edit_txt"
+        android:ems="10"
+        android:fontFamily="@font/montserrat_medium"
+        android:inputType="textPersonName"
+        android:paddingLeft="139dp"
+        android:hint="Amount" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="153dp"
+        android:layout_height="102dp"
+        android:layout_marginLeft="245dp"
+        android:layout_marginTop="160dp"
+        android:background="@drawable/spinner"
+        android:spinnerMode="dropdown"
+        />
+
+</RelativeLayout>
